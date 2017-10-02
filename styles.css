@@ -13,15 +13,18 @@ h2 {
 
 div {
     box-shadow: 0 0 1px black inset;
+
 }
 
 #contentBox {
     margin: 0 auto;
     width: 70%;
+    word-wrap: break-word;
 }
 
 #contentBox .column {
     float: left;
     margin: 0;
     width: 33%;
+    word-wrap: break-word;
 }
