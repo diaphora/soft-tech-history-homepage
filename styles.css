@@ -1,13 +1,16 @@
 body {
   font-family: "Times New Roman", sans-serif;
   margin-top:0px;
-  background-color: black;
+  background-color: blue;
   color: white;
 }
 
+h1 {
+  color: black;
+}
 
 h2 {
-  color: yellow;
+  color: white;
 }
 
 #contact {
@@ -15,7 +18,3 @@ h2 {
   color: black;
   padding: 2%;
 }
-
-.column-left{ float: left; width: 31%; margin-left: 10px; margin-right: 25px; }
-.column-center{ display: inline-block; width: 31%; }
-.column-right{ float: right; width: 31%; margin-left: 25px; margin-right: 10px; }
