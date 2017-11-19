@@ -5,8 +5,16 @@ body {
   color: white;
 }
 
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-size: 2em;
+}
+
 h1 {
-  color: black;
+  color: white;
 }
 
 h2 {
@@ -17,4 +25,10 @@ h2 {
   background-color: white;
   color: black;
   padding: 2%;
+}
+
+@media screen and (max-width: 100%) {
+  #container, #header, #content, #footer {
+    width: 100%;
+  }
 }
