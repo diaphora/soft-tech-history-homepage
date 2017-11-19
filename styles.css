@@ -1,8 +1,18 @@
+html {
+  background-color: blue;
+  color: white;
+}
+
 body {
   font-family: "Times New Roman", sans-serif;
   margin-top:0px;
   background-color: blue;
   color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+
 }
 
 p {
